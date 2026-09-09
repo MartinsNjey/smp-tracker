@@ -1,2 +1,2 @@
-def assess_day(steps):
-    return steps >= 10000 and steps is not None
+def assess_day(steps,goal=1000):
+    return steps >= goal and steps is not None
